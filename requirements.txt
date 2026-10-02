@@ -1,0 +1,16 @@
+Django>=5.1,<6.1
+openpyxl>=3.1,<4.0
+reportlab>=4.0,<5.0
+razorpay>=1.4,<2.0
+djangorestframework>=3.15,<3.16
+django-cors-headers>=4.4,<4.5
+whitenoise>=6.7,<7.0
+
+# Optional: richer DNS lookups (NS/MX/TXT/CNAME). Without it, active lookups fall back to
+# the OS resolver (A/AAAA only). Everything else in the DNS module works without it.
+dnspython>=2.6,<3.0
+
+# --- Desktop build only (see desktop_app.py / DESKTOP.md) -----------------
+pywebview>=5.3,<6.0
+waitress>=3.0,<4.0
+pyinstaller>=6.10,<7.0
